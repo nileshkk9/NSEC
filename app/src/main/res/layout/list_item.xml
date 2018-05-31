@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingStart="10dp"
+    >
+
+
+    <TextView
+        android:text="1ST"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+
+        android:id="@+id/magTxt"
+        android:layout_gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:background="@drawable/magnitude_circle"
+        android:gravity="center"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1.34"
+        android:orientation="vertical"
+        android:id="@+id/first">
+
+
+        <TextView
+            android:text=""
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/placeTxt"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textSize="12sp"
+            android:ellipsize="end"
+            android:textColor="@color/textColorEarthquakeDetails" />
+
+        <TextView
+            android:text="Values and Ethics in Profession (HU301) "
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:id="@+id/subject"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/textColorEarthquakeLocation"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="0.50"
+        android:orientation="vertical"
+        android:id="@+id/second">
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/ColorPrimary"
+            android:textSize="12sp"
+            android:gravity=""
+            android:text="10:00-10:50" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <color name="ColorPrimary">#000000</color>
+    <color name="ColorPrimaryDark">#2B1C27</color>
+    <color name="tabsScrollColor">#ffffff</color>
+    <color name="colorAccent">#393434</color>
+
+    <color name="magnitude1">#000000</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 2 and 3 -->
+
+
+    <!-- Text color for the details of the earthquake in the list item -->
+    <color name="textColorEarthquakeDetails">#0080ff</color>
+
+    <!-- Text color for the primary location of the earthquake in the list item -->
+    <color name="textColorEarthquakeLocation">#2B3D4D</color>
+</resources>
+

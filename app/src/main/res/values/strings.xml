@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Now</string>
+    <string name="login_activity">Register Here</string>
+    <string-array name="stream">
+        <item>CSE(Computer Science)</item>
+        <item>IT(Information Technology)</item>
+        <item>ECE(Electronics &amp; Communication Eng.)</item>
+        <item>EE(Electrical Eng.)</item>
+        <item>ME(Mechanical Eng.)</item>
+        <item>BME(Bio Medical Eng.)</item>
+        <item>AEIE(Applied Electronics &amp; Instru. Eng.)</item>
+        <item>CE(Civil Eng.)</item>
+
+    </string-array>
+
+    <string-array name="IT">
+        <item>GROUP-I</item>
+        <item>GROUP-II</item>
+    </string-array>
+
+    <string-array name="CSE">
+        <item>GROUP-A</item>
+        <item>GROUP-B</item>
+    </string-array>
+    <string-array name="ECE">
+        <item>GROUP-I</item>
+        <item>GROUP-II</item>
+    </string-array>
+    <string-array name="EE">
+        <item>GROUP-I</item>
+        <item>GROUP-II</item>
+    </string-array>
+    <string-array name="BME">
+        <item>GROUP-I</item>
+        <item>GROUP-II</item>
+    </string-array>
+    <string-array name="AEIE">
+        <item>GROUP-I</item>
+        <item>GROUP-II</item>
+    </string-array>
+    <string-array name="CE">
+        <item>GROUP-I</item>
+        <item>GROUP-II</item>
+    </string-array>
+    <string-array name="ME">
+        <item>GROUP-I</item>
+        <item>GROUP-II</item>
+    </string-array>
+
+
+    <string name="title_activity_main">Nerd</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_php_fragment">PhpFragment</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_routine">Routine</string>
+    <string name="title_activity_about">about</string>
+    <string name="title_activity_routine_navbar">RoutineNavbar</string>
+
+
+</resources>
